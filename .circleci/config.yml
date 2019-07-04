@@ -29,7 +29,7 @@ workflows:
   version: 2
   feature_master:
     jobs:
-      - test:
+      - test
       - package:
           requires:
             - test
