@@ -32,7 +32,7 @@ public class GildedRoseTest {
 
     @Test
     public void quality_never_negative(){
-        Item[] items = new Item[] { new Item("Aged Brie", 01, -1) };
+        Item[] items = new Item[] { new Item("Aged Brie", 1, -1) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertTrue("never negative brie", app.items[0].quality>= 0);
