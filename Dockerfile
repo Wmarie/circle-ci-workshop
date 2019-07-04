@@ -1,1 +1,2 @@
-FROM: alpine
+FROM alpine
+ENTRYPOINT echo "HOLA BITCHES"
